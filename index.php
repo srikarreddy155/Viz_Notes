@@ -37,7 +37,7 @@ if (isset($_GET['id'])) {
             <?php if ($currentNote['id']): ?>
                 Update
             <?php else: ?>
-                New note
+                Add Note
             <?php endif ?>
         </button>
     </form>
